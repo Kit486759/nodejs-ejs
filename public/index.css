@@ -1,0 +1,21 @@
+h1 {
+  color: brown;
+}
+
+p {
+  color: chartreuse;
+}
+ul{
+    padding:0;
+}
+
+li{
+    list-style: none;
+}
+
+  
+.link{
+  text-decoration: none;
+  color:black;
+}
+
