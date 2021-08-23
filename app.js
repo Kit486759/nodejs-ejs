@@ -4,13 +4,8 @@ const path = require('path')
 const rootDir = require('./util/path')
 const app = express()
 
-// require handlebar
-const expressHbs = require('express-handlebars')
-// make expresshbs() as engine as hbs
-app.engine('hbs',expressHbs({layoutsDir:'views/layouts/', defaultLayout:'main-layout', extname:'hbs'}))
-
-// set template engine, use hbs
-app.set('view engine','hbs');
+// set template engine, use ejs
+app.set('view engine','ejs');
 // set template path
 app.set('views', 'views')
 
